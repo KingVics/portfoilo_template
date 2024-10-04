@@ -4,12 +4,10 @@ const AboutIcons = ({dark, iconHeader, facebook, twitter}) => {
     
     return (
         <div className={iconHeader}>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                <svg aria-hidden="true" role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" className={facebook} >
-                    <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z" fill="currentColor"/>
-                </svg>
+            <a href="https://www.linkedin.com/in/sunday-okoromi" target="_blank" rel="noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg"  className={facebook} viewBox="0 0 32 32"><path fill={dark && '#fff'} d="M27.26 27.271h-4.733v-7.427c0-1.771-.037-4.047-2.475-4.047c-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739V11.999h4.552v2.083h.061c.636-1.203 2.183-2.468 4.491-2.468c4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912a2.75 2.75 0 0 1-2.751-2.756a2.753 2.753 0 1 1 2.751 2.756m2.374 17.359H4.74V12h4.749zM29.636 0H2.36C1.057 0 0 1.031 0 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307V2.307C32 1.031 30.932 0 29.631 0z"/></svg>
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer">
+            <a href="https://x.com/Viczimreal" target="_blank" rel="noreferrer">
                 <svg viewBox="0 0 32 32" fill={dark && '#fff'} className={twitter}>
                     <title>twitter icon</title>
                     <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path>

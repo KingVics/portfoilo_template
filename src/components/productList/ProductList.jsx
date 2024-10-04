@@ -15,7 +15,7 @@ export const ProductList = () => {
                     inside.
                 </p>
             </div>
-            <div className="w-full flex flex-wrap justify-between">
+            <div className="w-full  justify-between lg:grid-cols-3 grid md:grid-cols-2 sm:grid-cols-1 gap-4">
                 {products.map((data) => (
                     <Product  key={data.id} img={data.img} link={data.link}/>
                 ))}
