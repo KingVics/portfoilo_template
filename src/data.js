@@ -6,7 +6,7 @@ import P5 from './components/Images/p5.png'
 import P6 from './components/Images/p6.png'
 import P7 from './components/Images/p7.png'
 import P8 from './components/Images/p8.png'
-import P9 from './components/Images/p9.png'
+import P9 from './components/Images/p9.jpg'
 
 
 export const products = [
@@ -53,6 +53,6 @@ export const products = [
     {
         id: 9,
         img: P9,
-        link: "https://rppchurch.netlify.app/login"
+        link: "https://resurrectionpowerparish.ng/login"
     },
 ];
